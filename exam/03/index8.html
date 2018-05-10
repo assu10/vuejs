@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Vue Props Sample(상위에서 하위컴포넌트로 데이터 전달)</title>
 </head>
 <body>
-$END$
+    <div id="app">
+        <!-- propsdatas : props 속성 이름 -->
+        <!-- msg : 상위 컴포넌트의 데이터 속성 -->
+
+        <!-- 상위 컴포넌트의 msg 속성값인 hello를 하위 컴포넌트의 propsdatas로 전달 -->
+        <child-components v-bind:propsdatas="msg"></child-components>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        // 전역(하위) 컴포넌트 등록
+        Vue.component('child-components', {
+           props: ['propsdatas'],
+           template: '<p>{{ propsdatas }}</p>'
+        });
+
+        new Vue({
+            el: '#app',
+            data: {
+                msg: 'Vue Props Sample(상위에서 하위컴포넌트로 데이터 전달)'
+            }
+        });
+    </script>
 </body>
 </html>
