@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31e4dfba-2bb3-49ac-aeba-813f592a17d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/final/vue-todo/src/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/vue-todo/src/components/TodoFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/vue-todo/src/components/TodoHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/vue-todo/src/components/TodoInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/vue-todo/src/components/TodoList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/vue-todo/src/components/common/Modal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="31e4dfba-2bb3-49ac-aeba-813f592a17d5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +38,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/vue-todo/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/vue-todo/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TodoList.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/TodoList.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Modal.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Modal.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/common/Modal.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="653">
@@ -67,11 +79,17 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final/vue-todo/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-              <folding>
-                <element signature="e#300#352#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vueCli/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -138,11 +156,13 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/final/vue-todo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/pwa/node_modules" />
     <handled-path value="$PROJECT_DIR$/vueCli/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/final/vue-todo/package.json" />
+      <path value="$PROJECT_DIR$/pwa/package.json" />
       <path value="$PROJECT_DIR$/vueCli/package.json" />
     </packageJsonPaths>
   </component>
@@ -196,6 +216,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="01_vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01_vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vueCli" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,7 +235,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -296,16 +321,15 @@
       <workItem from="1525950216715" duration="458000" />
       <workItem from="1525953507287" duration="3248000" />
       <workItem from="1526181377190" duration="641000" />
-      <workItem from="1526182393355" duration="21996000" />
+      <workItem from="1526182393355" duration="24531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30326000" />
+    <option name="totallyTimeSpent" value="32861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -371,13 +395,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exam/03/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exam/03/index5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -635,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCli/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vueCli/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -672,6 +682,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/TodoList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/common/Modal.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/TodoInput.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/vue-todo/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/final/vue-todo/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -688,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/TodoList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/TodoHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -704,25 +735,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final/vue-todo/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding>
-            <element signature="e#300#352#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/TodoInput.vue">
+    <entry file="file://$PROJECT_DIR$/vueCli/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final/vue-todo/src/components/common/Modal.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="136">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
         </state>
       </provider>
     </entry>
