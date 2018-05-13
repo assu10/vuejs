@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Vue Template - Directives</title>
 </head>
 <body>
-$END$
+    <div id="app">
+        <a v-if="flag">두잇</a>
+        <ul>
+            <li v-for="system in systems">{{ system }}</li>
+        </ul>
+        <p v-show="flag">두잇2</p>
+        <p v-bind:id="uid">입문서</p>
+        <button v-on:click="popupAlert">경고창 실행</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+
+    <script>
+        new Vue({
+            data: {
+                flag: true,
+                systems: ['android', 'ios', 'window'],
+                uid: 10
+            },
+            methods: {
+                popupAlert: function() {
+                    return alert('경고창 표시');
+                }
+            }
+        }).$mount('#app');
+    </script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ue Template - Event Handling</title>
+</head>
+<body>
+    <div id="app">
+        <button v-on:click="clickBtn">클릭</button>
+        <button v-on:click="clickBtn2(10)">클릭</button>
+        <button v-on:click="clickBtn3">클릭</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+
+    <script>
+        new Vue({
+            methods: {
+                clickBtn: function() {
+                    alert('click');
+                },
+                clickBtn2: function(num) {
+                    alert(num);
+                },
+                clickBtn3: function(evt) {
+                    console.log(evt);
+                }
+            }
+        }).$mount('#app');
+    </script>
+</body>
+</html>
